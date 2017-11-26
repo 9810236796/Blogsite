@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/two.css">
+</head>
+<body>
+		<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#" class="navbar-brand logo">LOGO..</a>
+				</div>
+			</div>
+		</div>
+		</header>
+
+
+		<div class="container container-main">
+		<nav class="navbar navbar-default" id="mainNav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="button">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Setting</a></li>
+							<li><a href="#">Message</a></li>
+							<li><a href="#">Notifications</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+		
+			</div>
+		</nav>
+
+
+		<div id="imageCarousel" class="carousel slide" data-ride="carousel" 
+		data-interval="2000">
+
+			
+			<div class="carousel-inner">
+				
+				<div class="item active">
+					<img src="images/ny.jpg" alt="images" class="img-responsive">
+					<div class="carousel-caption">
+						<h2>Slide Story One</h2>
+						<p>Its all about Newyork...</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/la.jpg" alt="images" class="img-responsive">
+					<div class="carousel-caption">
+						<h2>Slide Story Two</h2>
+						<p>Its all about LosAngel...</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/chicago.jpg" alt="images" class="img-responsive">
+					<div class="carousel-caption">
+						<h2>Slide Story Three</h2>
+						<p>Its all about Chicago...</p>
+					</div>
+				</div>
+
+			</div><!--carousel inner ends-->
+
+			<ul class="list-group slider-list col-md-4">
+				<li data-target="#imageCarousel" data-slide-to="0" class="list-group-item active">
+		<img src="images/ny.jpg" alt="images" class="img-responsive img-thumbnail img-slide">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquid quas optio debitis eius</p>
+				</li>
+
+				<li data-target="#imageCarousel" data-slide-to="1" class="list-group-item">
+		<img src="images/la.jpg" alt="images" class="img-responsive img-thumbnail img-slide">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquid quas optio debitis eius</p>
+				</li>
+
+				<li data-target="#imageCarousel" data-slide-to="2" class="list-group-item">
+<img src="images/chicago.jpg" alt="images" class="img-responsive img-thumbnail img-slide">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquid quas optio debitis eius</p>
+				</li>
+				
+			</ul>
+
+			<a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+
+			<a href="#imageCarousel" class="carousel-control right" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+			
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-8">
+				<div class="well blog-post">
+					<h3><a href="#">Blog Post</a></h3>
+					<p class="post-info"><i class="glyphicon glyphicon-time"></i>
+						Posted By Suraj Adhikari On Shrawan 1,2074 @ 5:00 AM
+					</p>
+					<hr>
+					<img src="images/workbench.jpg" class="img-responsive">
+					<hr>
+						<p>
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature proident,<button class="showbtn 
+							 button">Read More</button><span class="para">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<button class="button Hidebtn">Hide</button>
+
+					
+
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="well">
+					<h4>Blog Search</h4>
+					<div class="input-group">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+
+				<div class="well">
+					<h4>Categories</h4>
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="list-unstyled">
+								<li><a href="#">Category Name</a></li>
+								<li><a href="#">Category Name</a></li>
+								<li><a href="#">Category Name</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-unstyled">
+								<li><a href="#">Category Name</a></li>
+								<li><a href="#">Category Name</a></li>
+								<li><a href="#">Category Name</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="well">
+					<h4>Widgets</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa molestias, consequuntur distinctio, possimus provident quos ipsum. Nobis sint eligendi sequi suscipit! Libero vitae voluptatem inventore veritatis explicabo exercitationem atque aliquid, ducimus. Quibusdam officia aspernatur est vero totam deleniti labore possimus iste eligendi nobis sed, ipsa fugit soluta fugiat quas laudantium.</p>
+				</div>
+				
+				<div class="well">
+					<h1>Contact</h1>
+					<form>
+						<div class="form-group">
+							<label for="inputusername">User Name</label>
+							<input type="text" class="form-control" placeholder="User Name..">
+						</div>
+
+						<div class="form-group">
+							<label for="password">Password</label>
+						<input type="password" class="form-control" placeholder="User Password..">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+			<footer>
+				<div class="row">
+				<div class="col-md-5 col-md-offset-2">
+					<h3>Find us on:</h3>
+					<div id="footer">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<div id="clear"></div>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5 text-right copyright">
+					<p>Copyright &copy:2017,All Right Reserved.</p>
+				</div>
+			</div>
+			</footer>
+
+			<!--FOR BUTTON WHEN CLICK SCROLLS TOP-->	
+				<div id="upBtn">
+					<i class="fa fa-arrow-up" aria-hidden="true"></i>
+				</div>
+		</div>	
+
+		
+
+	
+	
+	
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/three.js"></script>
+</body>
+</html>
